@@ -11,6 +11,18 @@ body{
 	padding: 0px 150px;
 	color: #00194A;
 }
+.text{
+	margin-bottom: 50px;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 28px;
+	opacity: 0.8;
+}
+.title{
+	font-weight: 500;
+	font-size: 35px;
+	line-height: 50px
+}
 //HEADER====================================================
 .header {
 	display: flex;
@@ -50,21 +62,17 @@ body{
 .quality {
 	display: flex;
 	flex-direction: row;
-	margin-bottom: 55px;
+	margin-top: 55px;
+
+		&__body{
+			padding-top: 162px;
+		}
 
 		h1 {
 			margin-bottom: 20px;;
 			font-weight: 500;
 			font-size: 60px;
 			line-height: 85px;
-		}
-
-		&__text {
-			margin-bottom: 50px;
-			font-weight: 300;
-			font-size: 18px;
-			line-height: 28px;
-			opacity: 0.8;
 		}
 
 		&__button {
@@ -133,7 +141,7 @@ body{
 //DEVICES=======================================
 
 .devices {
-	margin-top: 80px;
+	margin-top: 135px;
 	display: flex;
 	justify-content: space-between;
 
@@ -193,6 +201,47 @@ body{
 		height: 100%;
 	}
 }
+
+//CHATS=========================================
+.chats {
+	display: flex;
+	margin-top: 80px;
+
+	&__body {
+		display: flex;
+		flex-direction: column;
+		margin-left: 222px;
+		padding-top: 77px;
+	}
+}
+.chat {
+	&__oval {
+		position: relative;
+		right: 122px;
+	}
+
+	&_man {
+		position: relative;
+		bottom: 166px;
+		left: 104px;
+	}
+}
+.chat1 {
+	position: absolute;
+	bottom: 95px;
+   left: 94px;
+}
+.chat2 {
+	position: absolute;
+	bottom: 0px;
+   left:130px;
+}
+.chat3 {
+	position: absolute;
+	bottom: -94px;
+   left: 161px;
+}
+
 
 
 
