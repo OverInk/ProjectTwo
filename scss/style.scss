@@ -210,9 +210,16 @@ body{
 	&__body {
 		display: flex;
 		flex-direction: column;
-		margin-left: 222px;
-		padding-top: 77px;
+		margin-left: 285px;
+		padding-top: 162px;
 	}
+}
+
+.chats__title{
+	margin-bottom: 30px;
+}
+.chats__text p{
+	margin-top: 20px;
 }
 .chat {
 	&__oval {
@@ -248,9 +255,13 @@ body{
 //FOOTER========================================
 .footer {
 	margin-top: 80px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+
+	&_body {
+		padding-bottom: 80px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
 
 	&__logo {
 		font-weight: 500;
@@ -274,3 +285,5 @@ body{
 		margin-left: 0px;
 	}
 }
+
+

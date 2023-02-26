@@ -268,8 +268,16 @@ body {
 .chats__body {
   display: flex;
   flex-direction: column;
-  margin-left: 222px;
-  padding-top: 77px;
+  margin-left: 285px;
+  padding-top: 162px;
+}
+
+.chats__title {
+  margin-bottom: 30px;
+}
+
+.chats__text p {
+  margin-top: 20px;
 }
 
 .chat__oval {
@@ -302,6 +310,9 @@ body {
 
 .footer {
   margin-top: 80px;
+}
+.footer_body {
+  padding-bottom: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
