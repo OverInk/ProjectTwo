@@ -19,6 +19,7 @@ body{
 	opacity: 0.8;
 }
 .title{
+	margin-bottom: 30px;
 	font-weight: 500;
 	font-size: 35px;
 	line-height: 50px
@@ -210,14 +211,10 @@ body{
 	&__body {
 		display: flex;
 		flex-direction: column;
-		margin-left: 285px;
-		padding-top: 162px;
+		margin: 162px 97px 0px 210px;
 	}
 }
 
-.chats__title{
-	margin-bottom: 30px;
-}
 .chats__text p{
 	margin-top: 20px;
 }
@@ -248,6 +245,66 @@ body{
 	bottom: -94px;
    left: 161px;
 }
+//STUFF=========================================
+
+.stuff {
+	margin-top: 6px;
+	display: flex;
+	justify-content: space-between;
+	max-height: 528px;
+
+		&__body {
+			margin: 115px 0px;
+		}
+
+		&__cards {
+			padding-left: 414px;
+			position: relative;
+			width: 100%;
+		}
+
+		&__card {
+			box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.03);
+			width: 260px;
+			height: 249px;
+			padding: 36px 20px 30px 20px ;
+		}
+}
+.card1{
+	position: absolute;
+	top:0px;
+	right: 303px;
+}
+.card2{
+	position: absolute;
+	top:130px;
+	right: 13px;
+}
+.card3{
+	position: absolute;
+	bottom:0px;
+	right: 303px;
+}
+.text p{
+	margin-top: 20px;
+}
+.stuff-icon {
+	margin-bottom: 15px;
+}
+.stuff-title {
+	margin-bottom: 15px;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+}
+.stuff-text {
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 23px;
+	opacity: 0.8;
+}
+
+
 
 //FOOTER========================================
 .footer {
