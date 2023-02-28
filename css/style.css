@@ -76,6 +76,13 @@ body {
   color: #00194A;
 }
 
+.title {
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+}
+
 .text {
   margin-bottom: 50px;
   font-weight: 300;
@@ -84,11 +91,22 @@ body {
   opacity: 0.8;
 }
 
-.title {
-  margin-bottom: 30px;
-  font-weight: 500;
-  font-size: 35px;
-  line-height: 50px;
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 275px;
+  height: 60px;
+  background: #FF0043;
+  border-radius: 30px;
+  box-shadow: 0px 5px 50px rgba(255, 0, 67, 0.1);
+}
+
+.button-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
 }
 
 .header {
@@ -139,27 +157,10 @@ body {
   font-size: 60px;
   line-height: 85px;
 }
-.quality__button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 275px;
-  height: 60px;
-  background: #FF0043;
-  border-radius: 30px;
-  box-shadow: 0px 5px 50px rgba(255, 0, 67, 0.1);
-}
 .quality__img {
   position: relative;
   top: 0;
   left: 50px;
-}
-
-.button-quality {
-  color: #FFFFFF;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
 }
 
 .img_ph_left {
@@ -366,8 +367,111 @@ body {
 }
 
 .people {
-  margin-top: 185px;
+  margin-top: 100px;
+  display: flex;
+  min-height: 699px;
 }
+.people__ovals {
+  position: relative;
+  top: 0;
+  left: 211px;
+}
+.people__happy {
+  position: absolute;
+  top: 85px;
+  right: 256px;
+}
+.people__box {
+  margin: 204px 97px 0px 178px;
+}
+
+.circle__big {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background: #FFF8F9;
+  top: 50px;
+  right: 96px;
+}
+.circle__middle {
+  position: relative;
+  width: 290px;
+  height: 290px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  top: 13%;
+  left: 13%;
+}
+.circle__small {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: #FFF8F9;
+  top: 25%;
+  left: 25%;
+}
+
+.pink {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+}
+
+.girl__red {
+  position: absolute;
+  bottom: 204px;
+  left: 20px;
+}
+
+.style {
+  position: absolute;
+  top: 189px;
+  right: 133px;
+}
+
+.sad {
+  position: absolute;
+  bottom: 66px;
+  right: 155px;
+}
+
+.two__sky {
+  position: absolute;
+  bottom: 70px;
+  left: 63px;
+}
+
+.twwo__close {
+  position: absolute;
+  left: 209px;
+  bottom: 85px;
+}
+
+.gray__man {
+  position: absolute;
+  top: 113px;
+  left: 117px;
+}
+
+.app {
+  background: #00194A;
+  border-radius: 25px;
+  padding: 50px 0px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.app__title {
+  color: #FFFFFF;
+}
+.app__text {
+  color: #FFFFFF;
+  text-align: center;
+}
+
 .footer {
   margin-top: 80px;
 }
@@ -389,10 +493,14 @@ body {
 
 .row__text {
   margin-left: 40px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
 }
 .row__text:first-child {
   margin-left: 0px;
+}
+
+.row__text a {
+  color: #00194A;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
 }
