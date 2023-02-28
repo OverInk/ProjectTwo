@@ -80,6 +80,7 @@ body{
 	display: flex;
 	flex-direction: row;
 	margin-top: 55px;
+	justify-content: center;
 
 		&__body{
 			padding-top: 162px;
@@ -144,6 +145,7 @@ body{
 	margin-top: 135px;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 
 	&__cards {
 		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.03);
