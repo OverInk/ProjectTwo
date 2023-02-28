@@ -343,7 +343,7 @@ body {
   right: 303px;
 }
 
-.text p {
+.stuff-text p {
   margin-top: 20px;
 }
 
@@ -365,6 +365,9 @@ body {
   opacity: 0.8;
 }
 
+.people {
+  margin-top: 185px;
+}
 .footer {
   margin-top: 80px;
 }

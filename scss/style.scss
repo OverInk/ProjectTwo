@@ -285,7 +285,7 @@ body{
 	bottom:0px;
 	right: 303px;
 }
-.text p{
+.stuff-text p{
 	margin-top: 20px;
 }
 .stuff-icon {
@@ -303,8 +303,55 @@ body{
 	line-height: 23px;
 	opacity: 0.8;
 }
+//PEOPLE========================================
 
+.people {
+	margin-top: 185px;
 
+		&__happy {
+		}
+
+		&__ovals {
+		}
+
+		&__other {
+		}
+
+		&__box {
+		}
+}
+.circle {
+
+		&__big {
+		}
+
+		&__middle {
+		}
+
+		&__small {
+		}
+}
+.pink {
+}
+.girl {
+
+		&_with {
+		}
+}
+.style {
+}
+.sad {
+}
+.two {
+
+		&_sky {
+		}
+}
+.gray {
+
+		&_man {
+		}
+}
 
 //FOOTER========================================
 .footer {
