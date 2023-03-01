@@ -740,3 +740,98 @@ body {
     left: 168px;
   }
 }
+@media screen and (max-width: 831px) {
+  .title {
+    text-align: center;
+  }
+  .chat__oval {
+    right: -76px;
+  }
+  .chat_man {
+    left: 18%;
+  }
+  .chat1 {
+    left: 109px;
+  }
+  .chat2 {
+    left: 126px;
+  }
+  .chat3 {
+    left: 144px;
+  }
+  .stuff__body {
+    margin: 70px 0px 0px 0px;
+  }
+  .stuff__cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .stuff__card {
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+  .stuff__card:first-child {
+    margin-left: 0px;
+  }
+  .stuff__card:last-child {
+    margin-left: 0px;
+  }
+  .people {
+    margin-top: 350px;
+  }
+  .people__ovals {
+    left: 215px;
+  }
+  .people__happy {
+    right: 76%;
+  }
+  .circle__big {
+    top: 99px;
+    right: 114px;
+  }
+  .people__box {
+    margin-top: 137px;
+  }
+}
+@media screen and (max-width: 784px) {
+  .quality h1 {
+    font-size: 50px;
+    line-height: 63px;
+  }
+  .devices__cards {
+    min-width: 320px;
+  }
+  .devices__cards:nth-child(2) {
+    margin-left: 0px;
+  }
+  .devices__cards {
+    margin-bottom: 40px;
+  }
+  .people {
+    margin-top: 400px;
+  }
+  .chat1 {
+    left: 32px;
+  }
+  .chat2 {
+    left: 60px;
+  }
+  .chat3 {
+    left: 94px;
+  }
+  .app {
+    flex-wrap: wrap;
+    padding: 50px 20px;
+  }
+}
+@media screen and (max-width: 696px) {
+  .chat__oval {
+    right: -23px;
+  }
+  .chat2 {
+    left: 48px;
+  }
+  .chat3 {
+    left: 65px;
+  }
+}
