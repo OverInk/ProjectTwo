@@ -149,6 +149,11 @@ body {
   margin-top: 55px;
   justify-content: center;
 }
+.quality__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .quality h1 {
   margin-bottom: 20px;
   font-weight: 500;
@@ -158,7 +163,8 @@ body {
 .quality__img {
   position: relative;
   top: 0;
-  left: 50px;
+  left: 80px;
+  margin-left: -26px;
 }
 
 .img_ph_left {
@@ -269,7 +275,8 @@ body {
 .chats__body {
   display: flex;
   flex-direction: column;
-  margin: 162px 97px 0px 210px;
+  margin-left: 210px;
+  justify-content: center;
 }
 
 .chats__text p {
@@ -311,6 +318,9 @@ body {
   max-height: 528px;
 }
 .stuff__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 115px 0px;
 }
 .stuff__cards {
@@ -381,7 +391,10 @@ body {
   right: 256px;
 }
 .people__box {
-  margin: 204px 97px 0px 178px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 178px;
 }
 
 .circle__big {
@@ -502,4 +515,74 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
+}
+
+@media screen and (min-width: 1660px) {
+  .container {
+    padding: 0px 200px;
+  }
+  .quality__body {
+    margin-right: 155px;
+  }
+  .chats__body {
+    margin: 161px 97px 0px 260px;
+  }
+  .stuff__body {
+    margin-left: 105px;
+  }
+  .people__box {
+    margin: 204px 97px 0px 293px;
+  }
+}
+@media screen and (max-width: 1420px) {
+  .devices__cards {
+    max-width: 330px;
+  }
+}
+@media screen and (max-width: 1408px) {
+  .devices__cards {
+    max-width: 305px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .container {
+    padding: 0px 130px;
+  }
+}
+@media screen and (max-width: 1144px) {
+  .quality h1 {
+    font-size: 55px;
+    line-height: 74px;
+  }
+  .devices__cards {
+    max-width: 255px;
+  }
+  .stuff__card {
+    width: 246px;
+  }
+  .card1 {
+    right: 273px;
+  }
+  .card3 {
+    right: 273px;
+  }
+}
+@media screen and (max-width: 1132px) {
+  .quality {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .quality h1 {
+    font-size: 55px;
+    line-height: 74px;
+  }
+  .quality__text {
+    text-align: center;
+  }
+  .quality__img {
+    top: 57px;
+    left: 0;
+    margin-left: 0px;
+  }
 }
