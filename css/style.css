@@ -620,10 +620,11 @@ body {
     left: 128px;
   }
   .chat2 {
-    left: 179px;
+    left: 164px;
   }
   .chat3 {
-    left: 248px;
+    left: 206px;
+    max-width: 420px;
   }
   .chats__body {
     margin-left: 0px;
@@ -733,11 +734,21 @@ body {
   .chat_man {
     left: 34%;
   }
+  .chat1 {
+    left: 108px;
+  }
   .chat2 {
-    left: 146px;
+    left: 128px;
   }
   .chat3 {
-    left: 168px;
+    left: 150px;
+  }
+  .people__ovals {
+    left: 176px;
+    max-width: 249px;
+  }
+  .circle__big {
+    right: 116px;
   }
 }
 @media screen and (max-width: 831px) {
@@ -780,14 +791,14 @@ body {
     margin-top: 350px;
   }
   .people__ovals {
-    left: 215px;
+    left: 167px;
   }
   .people__happy {
     right: 76%;
   }
   .circle__big {
     top: 99px;
-    right: 114px;
+    right: 147px;
   }
   .people__box {
     margin-top: 157px;
@@ -822,6 +833,14 @@ body {
   .app {
     flex-wrap: wrap;
     padding: 50px 20px;
+  }
+}
+@media screen and (max-width: 743px) {
+  .chat__oval {
+    right: -21px;
+  }
+  .chat__oval {
+    right: -38px;
   }
 }
 @media screen and (max-width: 656px) {
@@ -1163,6 +1182,9 @@ body {
   }
 }
 @media screen and (max-width: 387px) {
+  .container {
+    padding: 0 50px;
+  }
   .quality h1 {
     font-size: 33px;
     line-height: 42px;
@@ -1184,5 +1206,54 @@ body {
   .img_gray {
     top: -15%;
     left: 27%;
+  }
+  .chat_man {
+    left: 15%;
+    bottom: 138px;
+  }
+  .ovals {
+    width: 120px;
+  }
+  .chat1 {
+    left: 9px;
+    width: 286px;
+  }
+  .chat2 {
+    bottom: 35px;
+    left: 9px;
+    width: 286px;
+  }
+  .chat3 {
+    left: 9px;
+    width: 286px;
+    bottom: -25px;
+  }
+  .people__ovals {
+    left: 76px;
+    max-width: 200px;
+  }
+  .womanH {
+    height: 350px;
+    width: 250px;
+  }
+  .people__happy {
+    right: 24%;
+    top: 31px;
+  }
+  .circle__big {
+    right: 119px;
+    width: 300px;
+    height: 300px;
+  }
+  .circle__middle {
+    width: 215px;
+    height: 215px;
+  }
+  .circle__small {
+    width: 110px;
+    height: 110px;
+  }
+  .twwo__close {
+    left: 143px;
   }
 }
