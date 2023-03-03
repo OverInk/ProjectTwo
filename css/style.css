@@ -276,16 +276,16 @@ body {
 .chats {
   display: flex;
   margin-top: 80px;
+  max-height: 635px;
+}
+.chats__imgs {
+  width: 100%;
 }
 .chats__body {
   display: flex;
   flex-direction: column;
-  margin-left: 210px;
+  width: 100%;
   justify-content: center;
-}
-
-.chats__text p {
-  margin-top: 20px;
 }
 
 .chat__oval {
@@ -297,40 +297,107 @@ body {
   bottom: 166px;
   left: 104px;
 }
+.chat__dialog {
+  padding: 10px 15px 10px 10px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+  display: flex;
+  width: 391px;
+  justify-content: space-between;
+}
+
+.dialog__box {
+  margin-left: 15px;
+  width: 100%;
+}
+.dialog__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  margin-top: 8px;
+}
+.dialog__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.time {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.msg {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  margin-right: 61px;
+}
+
+.notice {
+  background: #FF0043;
+  width: 24px;
+  height: 24px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notice__text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+
+.chats__text p {
+  margin-top: 20px;
+}
 
 .chat1 {
   position: absolute;
-  bottom: 95px;
-  left: 94px;
+  bottom: 120px;
+  right: 45px;
 }
 
 .chat2 {
   position: absolute;
-  bottom: 0px;
-  left: 130px;
+  bottom: 25px;
+  right: 25px;
 }
 
 .chat3 {
   position: absolute;
-  bottom: -94px;
-  left: 161px;
+  bottom: -70px;
+  right: 0;
 }
 
 .stuff {
-  margin-top: 6px;
+  margin-top: 100px;
   display: flex;
   justify-content: space-between;
-  max-height: 528px;
 }
 .stuff__body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 115px 0px;
+  padding-right: 111px;
+  width: 100%;
 }
 .stuff__cards {
-  padding-left: 414px;
-  position: relative;
+  display: flex;
+  flex-direction: row;
   width: 100%;
 }
 .stuff__card {
@@ -338,24 +405,22 @@ body {
   width: 260px;
   height: 249px;
   padding: 36px 20px 30px 20px;
+  margin-bottom: 30px;
 }
 
-.card1 {
-  position: absolute;
-  top: 0px;
-  right: 303px;
+.stuff__group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.card2 {
-  position: absolute;
-  top: 130px;
-  right: 13px;
+.stuff__card:nth-child(2) {
+  margin-bottom: 0px;
 }
 
-.card3 {
-  position: absolute;
-  bottom: 0px;
-  right: 303px;
+.group2 {
+  margin-left: 30px;
 }
 
 .stuff-text p {
@@ -530,6 +595,9 @@ body {
 @media screen and (min-width: 1660px) {
   .container {
     padding: 0px 200px;
+  }
+  .text {
+    font-size: 20px;
   }
   .quality__body {
     margin-right: 155px;
