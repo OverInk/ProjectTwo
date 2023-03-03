@@ -324,20 +324,23 @@ body{
 		&__ovals {
 			position: relative;
 			top:0;
-			left:211px;
+			left:202px;
+			width: 100%;
 		}
 		&__happy {
 			position: absolute;
 			top: 85px;
-			right: 256px;
+			left: -225px;
 		}
 		&__box {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
-			margin-left:178px;
-			padding-right: 73px;
+			width: 100%;
 		}
+}
+.ovals{
+	max-width: 259px;
 }
 .circle {
 
@@ -404,7 +407,7 @@ body{
 }
 .gray__man {
 	position: absolute;
-	top: 113px;
+	top: 130px;
    left: 117px;
 }
 //START-APP=====================================
