@@ -288,7 +288,7 @@ body {
 .chats__body {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 81%;
   justify-content: center;
 }
 
@@ -371,19 +371,19 @@ body {
 
 .chat1 {
   position: absolute;
-  right: 42px;
+  right: 60px;
   bottom: 123px;
 }
 
 .chat2 {
   position: absolute;
-  right: 12px;
+  right: 32px;
   bottom: 27px;
 }
 
 .chat3 {
   position: absolute;
-  right: -14px;
+  right: 6px;
   bottom: -69px;
 }
 
@@ -594,61 +594,155 @@ body {
   line-height: 19px;
 }
 
-@media screen and (min-width: 1660px) {
-  .container {
-    padding: 0px 200px;
+@media screen and (max-width: 1920px) {
+  .quality__img {
+    margin-left: 100px;
+    margin-right: -37px;
   }
+  .img_ph_left {
+    top: 71px;
+    left: -10px;
+  }
+  .img_light {
+    left: -6%;
+  }
+  .img_ph_right {
+    right: 250px;
+  }
+  .img_dark {
+    right: 35%;
+  }
+  .img_young {
+    right: 53%;
+    bottom: -5%;
+  }
+  .img_red {
+    left: 32%;
+  }
+  .people__ovals {
+    right: 200px;
+  }
+  .circle__big {
+    right: 114px;
+  }
+}
+@media screen and (max-width: 1840px) {
+  .img_ph_right {
+    right: 103px;
+  }
+  .img_light {
+    left: -6%;
+  }
+  .chat1 {
+    right: 237px;
+  }
+  .chat2 {
+    right: 140px;
+  }
+  .people__img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1757px) {
+  .quality__img {
+    margin-left: 136px;
+    margin-right: 0px;
+  }
+  .img_ph_left {
+    top: 71px;
+    left: -10px;
+  }
+  .img_light {
+    left: -6%;
+  }
+  .img_ph_right {
+    right: 154px;
+  }
+  .img_dark {
+    right: 32%;
+  }
+  .img_young {
+    right: 50%;
+  }
+  .img_red {
+    left: 34%;
+  }
+  .people__ovals {
+    right: 186px;
+  }
+  .circle__big {
+    right: 114px;
+  }
+}
+@media screen and (max-width: 1686px) {
+  .img_dark {
+    right: 27%;
+  }
+  .img_ph_right {
+    right: 112px;
+  }
+}
+@media screen and (max-width: 1660px) {
   .text {
     font-size: 20px;
+  }
+  .img_ph_left {
+    top: 51px;
+    left: -28px;
+  }
+  .img_ph_right {
+    right: 94px;
+  }
+  .img_dark {
+    right: 19%;
   }
   .img_red {
     left: 43%;
   }
   .img_young {
     right: 36%;
+    bottom: -5%;
   }
-  .quality__body {
-    margin-right: 155px;
+  .quality__img {
+    margin-left: 121px;
   }
-  .chats__body {
-    margin: 161px 97px 0px 260px;
+  .chat1 {
+    right: 100px;
   }
   .chat2 {
-    right: -41px;
+    right: 76px;
   }
   .chat3 {
-    right: -145px;
+    right: 49px;
   }
-  .stuff__body {
-    margin-left: 105px;
-  }
-  .people__box {
-    margin: 204px 97px 0px 293px;
+  .people__ovals {
+    right: 105px;
   }
   .circle__big {
-    top: 77px;
-    right: -12px;
+    bottom: -163px;
+    right: 75px;
+  }
+}
+@media screen and (max-width: 1517px) {
+  .img_ph_right {
+    right: 34px;
+  }
+  .people__ovals {
+    right: 53px;
+  }
+  .circle__big {
+    right: 30px;
   }
 }
 @media screen and (max-width: 1420px) {
+  .quality__img {
+    margin-left: 70px;
+  }
   .devices__cards {
     max-width: 330px;
   }
-}
-@media screen and (max-width: 1408px) {
-  .devices__cards {
-    max-width: 305px;
-  }
-}
-@media screen and (max-width: 1360px) {
-  .container {
-    padding: 0px 130px;
-  }
-}
-@media screen and (max-width: 1360px) {
-  .circle__big {
-    top: 102px;
-    right: 138px;
+  .people__ovals {
+    right: 11px;
   }
 }
 @media screen and (max-width: 1220px) {
