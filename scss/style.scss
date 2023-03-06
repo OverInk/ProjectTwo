@@ -8,7 +8,7 @@ body{
 	font-family: "Roboto", sans-serif;
 }
 .container {
-	padding: 0px 150px;
+	margin: 0px 150px;
 	color: #00194A;
 }
 .title{
@@ -42,7 +42,6 @@ body{
 }
 .box__inside{
 	width: 83%;
-	height: 58%;
 }
 // HEADER====================================================
 .header {
@@ -83,15 +82,14 @@ body{
 .quality {
 	display: flex;
 	flex-direction: row;
-	margin-top: 55px;
+	margin: 55px 0px 0px 150px;
 	justify-content: center;
 	height: 100%;
 		&__body{
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
-			width: 100%;
-			margin-right: -13px;
+			width: 108%;
 		}
 
 		h1 {
@@ -103,10 +101,10 @@ body{
 		&__img {
 			position: relative;
 			background: url(../img/bg.svg) no-repeat;
-			width: 100%;
+			width: 124%;
 			height: 600px;
-			min-width: 594px;
-			left:75px;
+			margin-left: 62px;
+			margin-right: 46px;
 		}
 }
 .img_ph_left {
@@ -117,7 +115,7 @@ body{
 .img_ph_right {
 	position: absolute;
 	bottom:74px;
-	right: -38px;
+	right: -2px;
 }
 .img_dark {
 	position: absolute;
@@ -147,7 +145,7 @@ body{
 .img_young {
 	position: absolute;
 	bottom:-6%;
-	right: 30%;
+	right: 34%;
 }
 
 // DEVICES=======================================
@@ -218,8 +216,9 @@ body{
 // CHATS=========================================
 .chats {
 	display: flex;
-	margin-top: 165px;
 	max-height: 635px;
+	color: #00194A;
+	margin: 165px 247px 0px 135px;
 	&__imgs{
 		width: 100%;
 	}
@@ -240,7 +239,6 @@ body{
 
 	&_man {
 		position: relative;
-		left: -15px;
 	}
 	&__dialog {
 		padding: 10px 15px 10px 10px;
@@ -326,7 +324,7 @@ body{
 // STUFF=========================================
 
 .stuff {
-	margin-top: 100px;
+	margin: 100px 163px 0px 150px;
 	display: flex;
 	justify-content: space-between;
 
@@ -386,26 +384,26 @@ body{
 // PEOPLE========================================
 .people {
 	margin-top: 185px;
+	margin: 185px 247px 0px 135px;
 	display: flex;
 	min-height: 612px;
 		&__img {
-			width: 100%;
+			width: 124%;
 		}
 		&__ovals {
 			position: absolute;
-			top: -96px;
-			right: 89px;
+			top: -85px;
+			right: 100px;
 			z-index: -100;
 		}
 		&__happy {
 			position: relative;
-			top:0px;
-			left: -15px;
 		}
 		&__box {
 			width: 100%;
 			display: flex;
-			align-items: center;
+			justify-content: center;
+			flex-direction: column;
 		}
 }
 .circle {
@@ -416,7 +414,7 @@ body{
 			border-radius: 50%;
 			background: #FFF8F9;
 			bottom: -137px;
-			right: 32px;
+			right: 45px;
 		}
 
 		&__middle {
@@ -438,10 +436,6 @@ body{
 			top: 25%;
 			left: 25%;
 		}
-}
-.womanH {
-}
-.ovals {
 }
 .pink {
 	position: absolute;
