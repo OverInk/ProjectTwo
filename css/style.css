@@ -1063,9 +1063,6 @@ body {
     left: 17%;
     bottom: 2%;
   }
-  .chat__oval {
-    right: -32px;
-  }
   .stuff {
     margin-top: 360px;
   }
@@ -1227,7 +1224,7 @@ body {
     width: 280px;
   }
   .img_ph_right {
-    bottom: 178px;
+    bottom: 129px;
     right: -1px;
     width: 280px;
     height: 270px;
@@ -1246,7 +1243,7 @@ body {
     left: 29%;
   }
   .img_light {
-    left: -9%;
+    left: -4%;
   }
   .img_young {
     bottom: 3%;
@@ -1270,8 +1267,14 @@ body {
   .row__text:last-child {
     margin-left: 0px;
   }
+  .chat2 {
+    right: -106px;
+  }
+  .chat3 {
+    right: -84px;
+  }
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 540px) {
   .text {
     margin-bottom: 28px;
   }
@@ -1282,49 +1285,104 @@ body {
     margin-top: 0px;
   }
   .quality__img {
-    background-size: 450px;
-    min-width: 450px;
+    background-size: 410px;
+    width: 109%;
+    margin-top: 0px;
   }
   .img_ph_left {
+    top: 114px;
     left: -4px;
     height: 210px;
     width: 220px;
   }
   .img_ph_right {
     right: 15px;
-    bottom: 222px;
+    bottom: 151px;
     height: 210px;
     width: 220px;
   }
+  .img_gray {
+    top: 8%;
+  }
   .img_dark {
-    right: 4%;
+    right: 11%;
+    top: 13%;
   }
   .img_red {
-    top: 11%;
-    left: 46%;
+    top: 24%;
+    left: 41%;
   }
   .img_old {
-    bottom: 23%;
+    bottom: 14%;
   }
   .img_young {
-    bottom: 17%;
+    bottom: 9%;
     right: 33%;
   }
   .chat__oval {
-    right: 56px;
+    left: -42px;
+    top: -71px;
   }
-  .people__ovals {
-    left: 115px;
-    max-width: 250px;
+  .chats__imgs {
+    width: 84%;
   }
-  .people__happy {
-    right: 22%;
+  .chat1 {
+    right: -50px;
   }
-  .circle__big {
-    right: 184px;
+  .chat2 {
+    right: -50px;
+  }
+  .chat3 {
+    right: -50px;
+  }
+  .stuff__group {
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+  .stuff__card {
+    width: 300px;
+  }
+  .stuff__card:first-child {
+    margin-bottom: 30px;
+  }
+  .stuff {
+    margin: 340px 50px 0px 50px;
+  }
+  .stuff__group {
+    margin: 0;
+  }
+  .w-margin2 {
+    margin-left: 0px;
+  }
+  .w-margin3 {
+    margin-left: 0px;
+  }
+  .people {
+    margin: 100px 65px 0px 65px;
+  }
+  .people__img {
+    width: 94%;
   }
 }
-@media screen and (max-width: 503px) {
+@media screen and (max-width: 516px) {
+  .container {
+    margin: 0px 25px;
+  }
+  .quality {
+    margin: 30px 25px 0px 25px;
+  }
+  .header {
+    margin-top: 25px;
+  }
+  .devices {
+    margin-top: 0px;
+  }
+  .footer {
+    margin-top: 40px;
+  }
+  .app {
+    margin-top: 50px;
+  }
   .title {
     font-size: 22px;
   }
@@ -1332,51 +1390,48 @@ body {
     width: 205px;
     margin-top: 0;
   }
-  .people__ovals {
-    left: 69px;
-  }
-  .people__happy {
-    left: -95px;
-  }
-  .chat_man {
-    left: 42%;
+  .chats__imgs {
+    width: 73%;
   }
   .man {
     height: 410px;
     width: 300px;
   }
+  .people__img {
+    width: 100%;
+  }
   .chat1 {
-    left: -45px;
+    right: -80px;
   }
   .chat2 {
-    left: -45px;
+    right: -80px;
   }
   .chat3 {
-    left: -45px;
+    right: -80px;
   }
   .womanH {
     height: 410px;
     width: 300px;
   }
+  .people__ovals {
+    left: 126px;
+  }
   .circle__big {
-    right: 149px;
+    right: -31px;
+    bottom: -220px;
   }
 }
 @media screen and (max-width: 452px) {
-  .container {
-    padding: 0 50px;
-  }
   .quality__img {
     background-size: 370px;
-    min-width: 370px;
   }
   .quality h1 {
     font-size: 39px;
     line-height: 48px;
   }
   .img_ph_right {
-    right: -5px;
-    bottom: 282px;
+    right: 12px;
+    bottom: 164px;
   }
   .img_ph_left {
     top: -2px;
@@ -1388,7 +1443,7 @@ body {
     width: 125px;
   }
   .img_old {
-    bottom: 38%;
+    bottom: 18%;
     width: 100px;
   }
   .img_gray {
@@ -1396,7 +1451,7 @@ body {
     left: 27%;
   }
   .img_young {
-    bottom: 31%;
+    bottom: 11%;
   }
   .img_red {
     top: 8%;
@@ -1406,14 +1461,8 @@ body {
     left: -11%;
     top: 146px;
   }
-  .devices {
-    margin-top: -88px;
-  }
-  .chat__oval {
-    right: 24px;
-  }
-  .chat_man {
-    left: 22%;
+  .devices__cards {
+    max-width: 282px;
   }
   .chat__dialog {
     width: 363px;
@@ -1429,6 +1478,13 @@ body {
   }
   .chat3 {
     left: -32px;
+  }
+  .people__ovals {
+    left: 87px;
+  }
+  .circle__big {
+    right: -44px;
+    bottom: -220px;
   }
 }
 @media screen and (max-width: 410px) {
