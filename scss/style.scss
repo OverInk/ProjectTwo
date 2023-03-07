@@ -724,6 +724,7 @@ body{
 @media screen and (max-width: 1172px){
 	.quality__body{
 		margin-right: 0px;
+		width: 100%;
 	}
 	.devices__cards {
 		max-width: 240px;
@@ -761,11 +762,11 @@ body{
 	}
 	.quality__img {
 		margin-right: 0px;
-		width: 100%;
+		width: 110%;
 	}
 	.img_ph_left {
 		top: 43px;
-		left: 67px;
+		left: 106px;
 	}
 	.img_ph_right {
 		bottom: 74px;
@@ -792,7 +793,13 @@ body{
 	}
 	.img_light {
 		top: 43%;
-		left: 9%;
+		left:11%;
+	}
+	.chat_man {
+		margin-left: 20px;
+	}
+	.chat__oval {
+		left: -45px;
 	}
 	.header{
 		margin-top: 50px;
@@ -804,7 +811,7 @@ body{
 		margin: 165px 134px 0px 65px;
 	}
 	.stuff {
-		margin: 150px 110px 0px 100px;
+		margin: 150px 100px 0px 100px;
 	}
 	.people {
 		margin: 185px 134px 0px 65px;
@@ -818,11 +825,11 @@ body{
 }
 @media screen and (max-width: 1020px){
 	.img_ph_left {
-		left: 20px;
+		left: 32px;
 	}
 	.img_ph_right {
 		bottom: 96px;
-		right: -11px;
+		right: 38px;
 	}
 	.img_red {
 		left: 47%;
@@ -832,7 +839,7 @@ body{
 		left: 34%;
 	}
 	.img_old {
-		left: 12%;
+		left: 16%;
 		bottom: 4%;
 	}
 	.img_young {
@@ -840,7 +847,7 @@ body{
 		right: 33%;
 	}
 	.img_light {
-		left: 1%;
+		left: 4%;
 	}
 	.img_dark {
 		top: 1%;
@@ -855,12 +862,19 @@ body{
 	.chats__body {
 		align-items: center;
 		margin-top: 100px;
+		width: 100%;
 	}
 	.chats__text{
 		text-align: center;
 	}
 	.chats__imgs {
 		width: 43%; 
+	}
+	.chat_man {
+		margin-left: 0px;
+	}
+	.chat__oval {
+		left: -104px;
 	}
 	.chat1 {
 		right: 16px;
@@ -883,6 +897,7 @@ body{
 	.stuff__body{
 		margin-right: 0;
 		align-items: center;
+		width: 100%;
 	}
 	.stuff__text{
 		text-align: center;
@@ -901,6 +916,9 @@ body{
 	}
 	.stuff__card:first-child {
 		margin-bottom: 0px;
+	}
+	.w-margin {
+		margin-left: 0px;
 	}
 	.stuff__group {
 		flex-direction: row;
@@ -926,6 +944,7 @@ body{
 	.people__box {
 		margin-top: 220px;
 		align-items: center;
+		width: 100%;
 	}
 	.people-text{
 		text-align: center;
@@ -934,10 +953,10 @@ body{
 
 @media screen and (max-width: 921px){
 	.img_ph_left {
-		left: -8px;
+		left: -22px;
 	}
 	.img_light {
-		left: -7%;
+		left: -4%;
 	}
 	.devices {
 		flex-wrap: wrap;
@@ -951,11 +970,48 @@ body{
 	}
 }
 @media screen and (max-width: 874px){
+	.quality {
+		flex-direction: column;
+		align-items: center;
+		margin: 55px 100px 0px 100px;
+		justify-content: center;
+	}
+	.quality h1 {
+		font-size: 50px;
+		line-height: 63px;
+	}
+	.title{
+		text-align: center;
+	}
+	.quality__img {
+		width: 130%;
+	}
+	.img_ph_right {
+		right: 10px;
+	}
+	.img_ph_left {
+		top: 12px;
+		left: 74px;
+	}
+	.img_light {
+		left: 9%;
+	}
+	.img_old {
+		left: 17%;
+		bottom: 2%;
+	}
 	.chat__oval {
 		right: -32px;
 	}
 	.stuff {
 		margin-top: 360px;
+	}
+	.stuff__cards {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.group1{
+		margin-bottom: 30px;
 	}
 	.people__ovals {
 		left: 176px;
@@ -968,190 +1024,70 @@ body{
 		padding: 40px 10px;
 	}
 }
-@media screen and (max-width: 831px){
-	.title{
-		text-align: center;
-	}
-	.chat__oval {
-		right: -76px;
-	}
-	.chat_man {
-		left: 18%;
-	}
-	.stuff__body {
-		margin: 70px 0px 0px 0px ;
-	}
-	.stuff__cards {
-		flex-wrap: wrap;
-		justify-content: center;
-	}
-	.stuff__card{
-		margin-left: 50px;
-		margin-bottom: 20px;
-	}
-	.stuff__card:first-child {
-		margin-left: 0px;
-	}
-	.group1{
-		margin-bottom: 30px;
-	}
-	.people{
-		margin-top: 50px;
-	}
-	.people__ovals {
-		left: 118px;
-	}
-	.people__happy {
-		right: 76%;
-	}
-	.circle__big {
-		top: 99px;
-		right: 147px;
-	}
-	.people__box {
-		margin-top: 157px;
-	}
-}
-@media screen and (max-width: 784px){
+@media screen and (max-width: 764px){
 	.quality h1 {
-		font-size: 50px;
-		line-height: 63px;
+		font-size: 44px;
+		line-height: 55px;
 	}
-	.devices__cards {
-		min-width: 320px;
+	.quality__img {
+		width: 155%;
 	}
-	.devices__cards:nth-child(2) {
-		margin-left: 0px;
-	}
-	.devices__cards {
-		margin-bottom: 40px;
-	}
-	.chat1 {
-		left: 32px;
-	}
-	.chat2 {
-		left: 60px;
-	}
-	.chat3 {
-   	left: 94px;
-	}
-	.app{
-		flex-wrap: wrap;
-		padding: 50px 20px;
-	}
-}
-@media screen and (max-width: 743px){
-	.chat__oval {
-		right: -21px;
-	}
-	.chat__oval {
-		right: -38px;
-	}
-	.img_gray {
-		left: 34%;
+	.img_ph_left {
+		left: 8px;
 	}
 }
 @media screen and (max-width: 700px){
 	.img_ph_left {
-		left: -12px;
+		left: -21px;
+	}
+	.img_ph_right {
+		right: -18px;
+	}
+	.devices__cards {
+		max-width: 406px;
+	}
+}
+@media screen and (max-width: 658px){
+	.quality__img{
+		background-size: 520px;
+		width: 170%;
+	}
+	.devices {
+		margin-top: 55px;
+	}
+	.img_red {
+		top: 21%;
 	}
 	.img_gray {
-		top: -8%;
-		left: 34%;
+		top: -1%;
+		left: 37%;
+	}
+	.img_old {
+		bottom: 7%;
+	}
+	.img_young {
+		bottom: 0%;
 	}
 	.img_light {
 		left: -7%;
 	}
-}
-@media screen and (max-width: 658px){
-	.container{ 
-		padding: 0 70px;
-	}
-	.quality__img{
-		background-size: 500px;
-		left: 20px;
-		min-width: 500px;
-	}
-	.img_ph_left {
-		top: 11px;
-		left: -64px;
-		height: 310px;
-		width: 310px;
-	}
-	.img_ph_right {
-		bottom: 142px;
-		right: -8px;
-		width: 300px;
-		height: 310px;
-	}
-	.img_dark {
-		top: -1%;
-		right:7%;
-	}
-	.img_red {
-		top: 13%;
-		left: 45%;
-	}
-	.img_old {
-		bottom: 19%;
-	}
-	.img_young {
-		bottom: 9%;
-		right: 43%;
-	}
-	.chat_man {
-		left: 14%;
-	}
-	.chat__oval {
-		right: -23px;
-	}
-	.chat2 {
-		left: 15px;
-	}
-	.chat2 {
-		left: 48px;
-	}
-	.chat3 {
-		left: 63px;
-	}
-	.people__happy {
-		left: -80%;
-	}
-	.circle__big {
-		top: 111px;
-		right: 122px;
+	.button{
+		margin-top: 30px;
 	}
 	.footer_body{
 		gap: 60px;
 	}
 }
 
-@media screen and (max-width: 636px){
-	.button{
-		margin-top: 30px;
-	}
-	.chat_man {
-		left: 7%
-	}
-	.stuff__cards {
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-	.stuff__card:first-child {
-		margin-bottom: 30px;
-	}
-	.stuff__card:nth-child(2) {
-		margin-left: 0;
-	}
-	.stuff__group {
-		flex-direction: column;
-	}
-	.circle__big {
-		top: 111px;
-		right: 159px;
-	}
-}
+// @media screen and (max-width: 636px){
+// 	.stuff__cards {
+// 		flex-direction: column;
+// 		justify-content: center;
+// 		align-items: center;
+// 	}
+// 	.stuff__group {
+// 		flex-direction: column;
+// }
 @media screen and (max-width: 568px){
 	.title{
 		font-size: 30px;
