@@ -1050,14 +1050,14 @@ body {
     width: 130%;
   }
   .img_ph_right {
-    right: 10px;
+    right: 58px;
   }
   .img_ph_left {
     top: 12px;
     left: 74px;
   }
   .img_light {
-    left: 9%;
+    left: 8%;
   }
   .img_old {
     left: 17%;
@@ -1087,6 +1087,14 @@ body {
     padding: 40px 10px;
   }
 }
+@media screen and (max-width: 812px) {
+  .img_light {
+    left: 4%;
+  }
+  .img_ph_left {
+    left: 43px;
+  }
+}
 @media screen and (max-width: 764px) {
   .quality h1 {
     font-size: 44px;
@@ -1096,18 +1104,34 @@ body {
     width: 155%;
   }
   .img_ph_left {
-    left: 8px;
+    left: 78px;
+  }
+  .img_ph_right {
+    right: 98px;
+  }
+  .img_dark {
+    top: 1%;
+    right: 21%;
+  }
+  .img_light {
+    left: 11%;
   }
 }
 @media screen and (max-width: 700px) {
   .img_ph_left {
-    left: -21px;
+    left: 52px;
   }
   .img_ph_right {
-    right: -18px;
+    right: 50px;
   }
   .devices__cards {
     max-width: 406px;
+  }
+  .img_light {
+    left: 4%;
+  }
+  .chat_man {
+    right: 23px;
   }
 }
 @media screen and (max-width: 658px) {
@@ -1117,6 +1141,12 @@ body {
   }
   .devices {
     margin-top: 55px;
+  }
+  .img_ph_left {
+    left: 75px;
+  }
+  .img_ph_right {
+    right: 72px;
   }
   .img_red {
     top: 21%;
@@ -1132,16 +1162,48 @@ body {
     bottom: 0%;
   }
   .img_light {
-    left: -7%;
+    left: 9%;
   }
   .button {
     margin-top: 30px;
+  }
+  .chat1 {
+    right: -122px;
+  }
+  .chat2 {
+    right: -90px;
+  }
+  .chat3 {
+    right: -58px;
   }
   .footer_body {
     gap: 60px;
   }
 }
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 642px) {
+  .quality {
+    margin: 55px 50px 0px 50px;
+  }
+  .quality__img {
+    width: 119%;
+  }
+  .img_ph_left {
+    left: 16px;
+  }
+  .img_ph_right {
+    right: 15px;
+  }
+  .img_light {
+    left: 3%;
+  }
+  .stuff__group {
+    margin: 30px;
+  }
+  .group1 {
+    margin-bottom: 0px;
+  }
+}
+@media screen and (max-width: 586px) {
   .title {
     font-size: 30px;
     line-height: 45px;
@@ -1151,7 +1213,8 @@ body {
     line-height: 24px;
   }
   .quality__img {
-    left: 4px;
+    background-size: 460px;
+    width: 107%;
   }
   .quality h1 {
     font-size: 45px;
@@ -1170,33 +1233,30 @@ body {
     height: 270px;
   }
   .img_old {
-    bottom: 18%;
+    left: 30px;
+    bottom: 8%;
+  }
+  .img_dark {
+    top: 6%;
+    width: 120px;
+    right: 18%;
+  }
+  .img_gray {
+    top: 2%;
+    left: 29%;
+  }
+  .img_light {
+    left: -9%;
   }
   .img_young {
-    position: absolute;
-    bottom: 9%;
+    bottom: 3%;
     right: 35%;
   }
   .devices {
-    margin-top: 50px;
+    margin-top: 0px;
   }
-  .chat__oval {
-    right: 33px;
-  }
-  .chat_man {
-    left: 15%;
-  }
-  .chats {
-    margin-top: 33px;
-  }
-  .chat1 {
-    left: -9px;
-  }
-  .chat2 {
-    left: 14px;
-  }
-  .chat3 {
-    left: 32px;
+  .people__img {
+    width: 78%;
   }
   .footer__row {
     flex-direction: column;
