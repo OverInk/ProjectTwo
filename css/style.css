@@ -1345,6 +1345,9 @@ body {
   .stuff__card:first-child {
     margin-bottom: 30px;
   }
+  .stuff__card:nth-child(2) {
+    margin-bottom: 30px;
+  }
   .stuff {
     margin: 340px 50px 0px 50px;
   }
@@ -1434,12 +1437,12 @@ body {
     bottom: 164px;
   }
   .img_ph_left {
-    top: -2px;
-    left: -27px;
+    top: 126px;
+    left: 9px;
   }
   .img_dark {
-    top: -5%;
-    right: -1%;
+    top: 14%;
+    right: 18%;
     width: 125px;
   }
   .img_old {
@@ -1447,19 +1450,19 @@ body {
     width: 100px;
   }
   .img_gray {
-    top: -8%;
+    top: 12%;
     left: 27%;
   }
   .img_young {
     bottom: 11%;
   }
   .img_red {
-    top: 8%;
+    top: 28%;
     left: 42%;
   }
   .img_light {
-    left: -11%;
-    top: 146px;
+    left: -2%;
+    top: 258px;
   }
   .devices__cards {
     max-width: 282px;
@@ -1496,77 +1499,116 @@ body {
     font-size: 13px;
   }
   .quality h1 {
-    font-size: 36px;
+    font-size: 33px;
+    line-height: 42px;
+  }
+  .quality__img {
+    background-size: 317px;
+    height: 422px;
   }
   .img_ph_left {
-    top: 35px;
-    left: -11px;
+    top: 83px;
+    left: 20px;
     height: 160px;
     width: 170px;
   }
   .img_ph_right {
+    right: 19px;
     height: 160px;
     width: 170px;
-  }
-  .img_red {
-    top: 13%;
-    left: 45%;
+    bottom: 115px;
   }
   .img_old {
-    bottom: 35%;
     width: 88px;
-    left: 13%;
+    bottom: 17%;
   }
   .img_dark {
-    top: 3%;
-    right: 2%;
+    top: 5%;
+    right: 14%;
     width: 104px;
   }
+  .img_red {
+    top: 20%;
+    left: 38%;
+  }
+  .img_gray {
+    top: 0%;
+  }
+  .img_young {
+    bottom: 3%;
+  }
   .img_light {
-    top: 33%;
-    left: -7%;
+    top: 47%;
+    left: -4%;
   }
-  .people__happy {
-    left: -158px;
-  }
-  .ovals {
-    width: 180px;
+  .chats__imgs {
+    width: 78%;
   }
   .chat__oval {
-    right: 39px;
+    left: -38px;
+    top: -79px;
   }
-  .chat_man {
-    left: 22%;
-    bottom: 138px;
-  }
-  .devices__cards {
-    min-width: 275px;
+  .people__img {
+    width: 98%;
   }
   .people__ovals {
-    left: 95px;
-    max-width: 180px;
+    left: 102px;
+    top: -53px;
   }
   .ovals {
     width: 180px;
   }
+  .chat1 {
+    left: -21px;
+    bottom: 75px;
+  }
+  .chat2 {
+    left: -21px;
+    bottom: -5px;
+  }
+  .chat3 {
+    left: -21px;
+    bottom: -85px;
+  }
+  .chat__dialog {
+    width: 285px;
+  }
+  .chat__dialog img {
+    width: 40px;
+  }
+  .msg {
+    font-size: 12px;
+  }
+  .man {
+    height: 350px;
+    width: 250px;
+  }
+  .womanH {
+    height: 350px;
+    width: 250px;
+  }
   .circle__big {
-    width: 320px;
-    height: 320px;
-    right: 169px;
+    width: 300px;
+    height: 300px;
+    right: -20px;
+    bottom: -161px;
   }
   .circle__middle {
-    width: 240px;
-    height: 240px;
+    width: 215px;
+    height: 215px;
   }
   .circle__small {
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
   }
   .girl__red {
     bottom: 153px;
   }
+  .sad {
+    right: 134px;
+  }
   .twwo__close {
-    left: 159px;
+    left: 126px;
   }
   .style {
     top: 126px;
@@ -1581,113 +1623,8 @@ body {
     left: 48px;
   }
 }
-@media screen and (max-width: 387px) {
-  .container {
-    padding: 0 50px;
-  }
-  .quality h1 {
-    font-size: 33px;
-    line-height: 42px;
-  }
-  .quality__img {
-    background-size: 300px;
-    min-width: 300px;
-  }
-  .img_ph_left {
-    top: 35px;
-    height: 160px;
-    width: 170px;
-  }
-  .img_ph_right {
-    top: 18%;
-    right: -9%;
-  }
-  .img_red {
-    top: 4%;
-    left: 38%;
-  }
-  .img_old {
-    bottom: 47%;
-    left: 7%;
-  }
-  .img_dark {
-    top: -1%;
-    right: 2%;
-    width: 104px;
-  }
-  .img_light {
-    top: 21%;
-    left: -15%;
-  }
-  .img_gray {
-    top: -9%;
-    left: 22%;
-  }
-  .img_young {
-    bottom: 41%;
-  }
-  .devices {
-    margin-top: -146px;
-  }
-  .chat__dialog {
-    width: 281px;
-  }
-  .chat__dialog img {
-    width: 40px;
-  }
-  .msg {
-    font-size: 12px;
-  }
-  .chat_man {
-    left: 18%;
-    bottom: 86px;
-  }
-  .ovals {
-    width: 120px;
-  }
-  .chats__body {
-    margin-top: -16px;
-  }
-  .chat1 {
-    left: 9px;
-  }
-  .chat2 {
-    bottom: 38px;
-    left: 9px;
-  }
-  .chat3 {
-    left: 9px;
-    bottom: -44px;
-  }
-  .stuff {
-    margin-top: 240px;
-  }
-  .people__ovals {
-    left: 96px;
-    max-width: 125px;
-  }
-  .womanH {
-    height: 350px;
-    width: 250px;
-  }
-  .people__happy {
-    right: 24%;
-    top: 31px;
-  }
+@media screen and (max-width: 385px) {
   .circle__big {
-    right: 182px;
-    width: 300px;
-    height: 300px;
-  }
-  .circle__middle {
-    width: 215px;
-    height: 215px;
-  }
-  .circle__small {
-    width: 110px;
-    height: 110px;
-  }
-  .twwo__close {
-    left: 143px;
+    right: -39px;
   }
 }
